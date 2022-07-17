@@ -17,10 +17,10 @@ lint = [
     "isort"
 ]
 
-[[tool.pdm.source]]
-url = "https://private-site.org/pypi/simple"
-verify_ssl = false
-name = "lacatalog"
+# [[tool.pdm.source]]
+# url = "https://private-site.org/pypi/simple"
+# verify_ssl = false
+# name = "lacatalog"
 
 [build-system]
 requires = ["pdm-pep517>=0.12.0"]
