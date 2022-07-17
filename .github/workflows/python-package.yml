@@ -17,7 +17,6 @@ jobs:
     - run: pdm install
     # - uses: psf/black@stable
     - run: pdm run sort
-    - run: pdm run tests
     - run: |
         if [ "$(git status --porcelain)" != "" ]
         then
