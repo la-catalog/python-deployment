@@ -13,6 +13,9 @@ repository = "https://github.com/la-catalog/python-deployment"
 
 [tool.pdm]
 
+[tool.pdm.scripts]
+sort = "python -m isort -v --ac ."
+
 [tool.pdm.dev-dependencies]
 lint = [
     "black",
