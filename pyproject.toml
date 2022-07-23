@@ -8,6 +8,9 @@ authors = [
 ]
 dependencies = []
 
+[project.urls]
+repository = "https://github.com/la-catalog/python-deployment"
+
 [tool.pdm]
 
 [tool.pdm.dev-dependencies]
