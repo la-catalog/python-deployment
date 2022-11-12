@@ -1,1 +1,1 @@
-# Start writing code here (and remove this line)
+# Remove this line and start coding
